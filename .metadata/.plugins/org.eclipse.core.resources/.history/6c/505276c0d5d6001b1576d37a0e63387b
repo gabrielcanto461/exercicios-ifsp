@@ -1,0 +1,15 @@
+/*3. Escreva um programa que leia 10 números e escreva o maior e o menor valor. */
+
+#include <stdio.h>
+
+int main() {
+	setbuf(stdout, NULL);
+
+	int maior, menor;
+
+	for(int i=1; i<=10, i++) {
+		printf("i");
+	}
+
+	return 0;
+}

@@ -1,0 +1,25 @@
+/*5. Faça um programa que calcule e mostre a soma dos 50 primeiros números pares.
+*/
+#include <stdio.h>
+
+int main() {
+
+	setbuf(stdout, NULL);
+
+	int soma = 0, valor=0, contador = 1;
+
+	while (contador <= 50) {
+	if (valor % 2 ==0 ){
+		contador++;
+	}
+	//valor = valor + 2;
+	printf("Soma: %d, numero: %d, i = %d\n", soma, valor,contador);
+	//contador++;
+	}
+	//printf("Soma: %d, numero: %d", soma, valor);
+
+
+
+
+
+}

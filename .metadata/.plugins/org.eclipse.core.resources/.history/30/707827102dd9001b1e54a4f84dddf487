@@ -1,0 +1,29 @@
+/*8. Faça um programa que calcula a área de um triângulo, cuja base e altura são fornecidas
+ pelo usuário. Esse programa não pode permitir a entrada de dados inválidos, ou seja,
+ medidas menores ou igual a 0. Caso o usuário informe um dado inválido, o programa deve
+ soliicitar a entrada do dado até ele ser válido.*/
+
+#include <stdio.h>
+
+int main() {
+
+	setbuf(stdout, NULL);
+	int valido = 0;
+	float base, altura;
+
+	while (!valido) {
+		printf("Digite a base do triângulo: ");
+		scanf("%f", &base);
+		if (base > 0) {
+			valido = 1;
+		}
+	}
+
+
+
+
+
+
+
+	return 0;
+}

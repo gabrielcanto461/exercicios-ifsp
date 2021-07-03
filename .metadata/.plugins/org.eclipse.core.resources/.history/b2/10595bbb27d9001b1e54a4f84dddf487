@@ -1,0 +1,18 @@
+/*6. Faça um programa que receba dois números (N1 e N2). Depois, calcule e mostre:
+•A soma dos números pares no intervalo entre N1 e N2, incluindo os números
+digitados;
+•A multiplicação dos números ímpares no intervalo entre N1 e N2, incluindo os
+números digitados;*/
+#include <stdio.h>
+
+int main() {
+	setbuf(stdout, NULL);
+	int n1, n2, somaPares, multImpar;
+
+
+
+
+
+
+	return 0;
+}

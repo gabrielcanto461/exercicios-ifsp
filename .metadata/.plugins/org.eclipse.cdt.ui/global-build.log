@@ -1,0 +1,78 @@
+20:32:47 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -o ProgramaC.exe exercicio09.o 
+Info: Nothing to build for ProgramaC
+20:33:05 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o exercicio09.o "..\\exercicio09.c" 
+..\exercicio09.c: In function 'main':
+..\exercicio09.c:11:8: warning: unused variable 'velocidade' [-Wunused-variable]
+  float velocidade;
+        ^~~~~~~~~~
+..\exercicio09.c:10:6: warning: unused variable 'opcao' [-Wunused-variable]
+  int opcao;
+      ^~~~~
+gcc -o ProgramaC.exe exercicio09.o 
+20:33:36 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o exercicio09.o "..\\exercicio09.c" 
+..\exercicio09.c: In function 'main':
+..\exercicio09.c:11:8: warning: unused variable 'velocidade' [-Wunused-variable]
+  float velocidade;
+        ^~~~~~~~~~
+..\exercicio09.c:10:6: warning: unused variable 'opcao' [-Wunused-variable]
+  int opcao;
+      ^~~~~
+gcc -o ProgramaC.exe exercicio09.o 
+20:34:14 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o exercicio09.o "..\\exercicio09.c" 
+..\exercicio09.c: In function 'main':
+..\exercicio09.c:11:8: warning: unused variable 'velocidade' [-Wunused-variable]
+  float velocidade;
+        ^~~~~~~~~~
+..\exercicio09.c:10:6: warning: unused variable 'opcao' [-Wunused-variable]
+  int opcao;
+      ^~~~~
+gcc -o ProgramaC.exe exercicio09.o 
+20:34:35 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o exercicio09.o "..\\exercicio09.c" 
+..\exercicio09.c: In function 'main':
+..\exercicio09.c:11:8: warning: unused variable 'velocidade' [-Wunused-variable]
+  float velocidade;
+        ^~~~~~~~~~
+..\exercicio09.c:10:6: warning: unused variable 'opcao' [-Wunused-variable]
+  int opcao;
+      ^~~~~
+gcc -o ProgramaC.exe exercicio09.o 
+20:34:50 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o exercicio09.o "..\\exercicio09.c" 
+..\exercicio09.c: In function 'main':
+..\exercicio09.c:11:8: warning: unused variable 'velocidade' [-Wunused-variable]
+  float velocidade;
+        ^~~~~~~~~~
+..\exercicio09.c:10:6: warning: unused variable 'opcao' [-Wunused-variable]
+  int opcao;
+      ^~~~~
+gcc -o ProgramaC.exe exercicio09.o 
+19:46:17 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o teste.o "..\\teste.c" 
+gcc -o ProgramaC.exe teste.o 
+Info: Nothing to build for ProgramaC
+19:46:42 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o teste.o "..\\teste.c" 
+gcc -o ProgramaC.exe teste.o 
+19:48:20 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o teste.o "..\\teste.c" 
+..\teste.c: In function 'main':
+..\teste.c:5:13: warning: unused variable 'i' [-Wunused-variable]
+ long double i = 1;
+             ^
+gcc -o ProgramaC.exe teste.o 
+Info: Nothing to build for ProgramaC
+Info: Nothing to build for ProgramaC
