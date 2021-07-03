@@ -1,0 +1,21 @@
+/*7. Faça um programa que some todos os números naturais abaixo de 1000 que são
+ múltiplos de 3 ou 5.*/
+
+#include <stdio.h>
+
+int main() {
+
+	setbuf(stdout, NULL);
+
+	int soma = 0, valor = 1;
+
+	while (valor < 1000) {
+		if ((valor % 3 == 0) || (valor % 5 == 0)) {
+			soma = soma + valor;
+		}
+		valor++;
+	}
+	printf("Soma múltiplos de 3 e 5 no intervalo [0, 1000): %d", soma);
+
+	return 0;
+}
